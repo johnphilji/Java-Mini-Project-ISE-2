@@ -1,0 +1,15 @@
+com\microfinance\model\Borrower.class
+com\microfinance\dao\LoanDAO.class
+com\microfinance\App$LoanRecord.class
+com\microfinance\exception\BorrowerNotFoundException.class
+com\microfinance\model\Loan.class
+com\microfinance\model\LoanOfficer.class
+com\microfinance\exception\InvalidLoanAmountException.class
+com\microfinance\dao\BorrowerDAO.class
+com\microfinance\ui\ReportsWindow.class
+com\microfinance\App.class
+com\microfinance\util\DatabaseConnection.class
+com\microfinance\App$BorrowerRecord.class
+com\microfinance\service\LoanCalculationService.class
+com\microfinance\ui\ReportsWindow$LoanDetailRecord.class
+com\microfinance\service\LoanService.class
