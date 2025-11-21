@@ -1,0 +1,88 @@
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/opt/homebrew/Cellar/maven/3.9.11/libexec/lib/guice-5.1.0-classes.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner
+WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< com.microfinance:MicrofinanceLoanTracker >--------------
+[INFO] Building MicrofinanceLoanTracker 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> javafx:0.0.8:run (default-cli) > process-classes @ MicrofinanceLoanTracker >>>
+[WARNING] 6 problems were encountered while building the effective model for org.openjfx:javafx-controls:jar:21 during dependency collection step for project (use -X to see details)
+[WARNING] The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ MicrofinanceLoanTracker ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/chrisfernandes/Desktop/java_proj/MicrofinanceLoanTracker/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ MicrofinanceLoanTracker ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< javafx:0.0.8:run (default-cli) < process-classes @ MicrofinanceLoanTracker <<<
+[INFO] 
+[WARNING] The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+[INFO] 
+[INFO] --- javafx:0.0.8:run (default-cli) @ MicrofinanceLoanTracker ---
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.sun.glass.utils.NativeLibLoader in module javafx.graphics (file:/Users/chrisfernandes/.m2/repository/org/openjfx/javafx-graphics/21/javafx-graphics-21-mac-aarch64.jar)
+WARNING: Use --enable-native-access=javafx.graphics to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Nov 18, 2025 3:07:23 PM com.sun.glass.ui.mac.MacApplication lambda$waitForReactivation$6
+WARNING: Timeout while waiting for app reactivation
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[DEBUG] Initializing database connection pool...
+[DEBUG] JDBC URL: jdbc:mysql://localhost:3306/microfinance_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+[DEBUG] Username: root
+[SUCCESS] Database connection pool initialized successfully
+[DEBUG] Getting connection from pool
+[DEBUG] Connection obtained successfully
+[SUCCESS] Database connection test passed
+[DEBUG] Getting connection from pool
+[DEBUG] Connection obtained successfully
+[DEBUG] Executing SELECT all loans query
+[DEBUG] Retrieved 8 loans from database
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::allocateMemory has been called by com.sun.marlin.OffHeapArray (file:/Users/chrisfernandes/.m2/repository/org/openjfx/javafx-graphics/21/javafx-graphics-21-mac-aarch64.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sun.marlin.OffHeapArray
+WARNING: sun.misc.Unsafe::allocateMemory will be removed in a future release
+[DEBUG] Getting connection from pool
+[DEBUG] Connection obtained successfully
+[DEBUG] Executing INSERT query with parameters:
+  Borrower: yttttt
+  Amount: 99999.0
+  Status: Active
+[DEBUG] Rows inserted: 1
+[SUCCESS] Loan added successfully to database
+[DEBUG] Getting connection from pool
+[DEBUG] Connection obtained successfully
+[DEBUG] Executing SELECT all loans query
+[DEBUG] Retrieved 9 loans from database
+[DEBUG] Getting connection from pool
+[DEBUG] Connection obtained successfully
+[DEBUG] Executing INSERT query with parameters:
+  Borrower: The John
+  Amount: 6.96969696E8
+  Status: Active
+[DEBUG] Rows inserted: 1
+[SUCCESS] Loan added successfully to database
+[DEBUG] Getting connection from pool
+[DEBUG] Connection obtained successfully
+[DEBUG] Executing SELECT all loans query
+[DEBUG] Retrieved 10 loans from database
+[DEBUG] Getting connection from pool
+[DEBUG] Connection obtained successfully
+[DEBUG] Getting connection from pool
+[DEBUG] Connection obtained successfully
+[DEBUG] Executing SELECT all loans query
+[DEBUG] Retrieved 9 loans from database
+[DEBUG] Getting connection from pool
+[DEBUG] Connection obtained successfully
+[DEBUG] Getting connection from pool
+[DEBUG] Connection obtained successfully
+[DEBUG] Executing SELECT all loans query
+[DEBUG] Retrieved 8 loans from database
